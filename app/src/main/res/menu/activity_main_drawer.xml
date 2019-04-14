@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cal"
+            android:icon="@mipmap/ic_date_range_black_24dp"
+            android:title="Calendar" />
+
+        <item
+            android:id="@+id/calc"
+            android:icon="@mipmap/ic_code_black_24dp"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/torch"
+            android:icon="@mipmap/ic_lightbulb_outline_black_24dp"
+            android:title="Torch" />
+    </group>
+
+
+</menu>
