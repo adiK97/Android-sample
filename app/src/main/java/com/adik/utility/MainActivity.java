@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
 
-                Snackbar.make(view, "Email at khandareaditya97@gmail.com", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Email at akanksha@gmail.com", Snackbar.LENGTH_LONG)
 
                         .setAction("Action", null).show();
 
@@ -116,14 +116,6 @@ public class MainActivity extends AppCompatActivity
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();*/
-
-        } else if (id == R.id.torch) {
-
-            torch fragment = new torch();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, fragment);
-            fragmentTransaction.commit();
 
         }
 
